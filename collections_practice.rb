@@ -20,7 +20,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  ke$ha = [ ]
+  kesha2 = [ ]
   array.each { |string| string[3] = $ }
-  >> ke$ha
+  >> kesha2
 end
