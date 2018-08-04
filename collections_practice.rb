@@ -30,3 +30,7 @@ end
 def sum_array (array)
   array.inject(0) { |result, element| result + element } 
 end
+
+def adds_s(array)
+  array.each.with_index.collect { |element| element + "s" }
+end
