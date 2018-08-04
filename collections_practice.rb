@@ -32,10 +32,10 @@ def sum_array (array)
 end
 
 def add_s(array)
-  array.each.with_index.collect do |element, index| 
+  array.each.with_index.collect do |array, element| 
   
-      if element[2] 
-        element[2]
+      if array[2] 
+         array[2]
     
       else element + "s"
     end
