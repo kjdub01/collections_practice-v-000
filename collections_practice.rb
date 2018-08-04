@@ -28,5 +28,5 @@ def find_a(array)
 end
 
 def sum_array (array)
-  array.each { |result, element| result + element } 
+  array.each { |element| element + element } 
 end
