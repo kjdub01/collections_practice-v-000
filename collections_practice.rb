@@ -28,5 +28,5 @@ def find_a(array)
 end
 
 def sum_array (array)
-  array.inject { |result, element| result + element } 
+  array.each { |result, element| result + element } 
 end
